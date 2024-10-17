@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Toko AVD STORE</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Selamat Datang di Toko AVD STORE</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Produk</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Tentang Kami</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="container my-5">
+        <h2 class="text-center">Belanja Mudah dan Aman</h2>
+        <p class="text-center">Kami menyediakan berbagai produk digital yang dapat diakses secara instan setelah pembelian.</p>
+    </section>
+
+    <section id="products" class="container my-5">
+        <h2 class="text-center mb-4">Produk Kami</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="hoodie.jpg" class="card-img-top" alt="hoodie">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">hoodie</h3>
+                        <p class="card-text">Harga: Rp100.000</p>
+                        <a href="#" class="btn btn-success">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="sepatu.jpg" class="card-img-top" alt="Sepatu">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Sepatu Lisensi</h3>
+                        <p class="card-text">Harga: Rp250.000</p>
+                        <a href="#" class="btn btn-success">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Toko AVD STORE. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
